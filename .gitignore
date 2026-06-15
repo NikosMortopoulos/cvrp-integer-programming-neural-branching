@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Conda environments
+.conda/
+env/
+venv/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+bin/
+obj/
+out/

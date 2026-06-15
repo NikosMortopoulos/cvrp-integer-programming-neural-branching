@@ -1,0 +1,93 @@
+[2026-06-13 14:00:15] ================================================================================
+[2026-06-13 14:00:15] XGBoost Ranker branching training started
+[2026-06-13 14:00:15] ================================================================================
+[2026-06-13 14:00:15] Total sample files found: 13583
+[2026-06-13 14:00:15] Train sample files: 9779
+[2026-06-13 14:00:15] Val sample files:   1087
+[2026-06-13 14:00:15] Test sample files:  2717
+[2026-06-13 14:00:15] 
+Building train ranking dataset...
+[2026-06-13 14:01:03] Loaded ranking groups: 9779
+[2026-06-13 14:01:03] Loaded candidate rows: 1041708
+[2026-06-13 14:01:03] Feature dimension: 21
+[2026-06-13 14:01:03] Skipped samples: 0
+[2026-06-13 14:01:03] Tied-score groups: 0
+[2026-06-13 14:01:03] Inconsistent stored best_cand groups: 0
+[2026-06-13 14:01:03] Average candidates per group: 106.53
+[2026-06-13 14:01:03] 
+Building validation ranking dataset...
+[2026-06-13 14:01:08] Loaded ranking groups: 1087
+[2026-06-13 14:01:08] Loaded candidate rows: 114741
+[2026-06-13 14:01:08] Feature dimension: 21
+[2026-06-13 14:01:08] Skipped samples: 0
+[2026-06-13 14:01:08] Tied-score groups: 0
+[2026-06-13 14:01:08] Inconsistent stored best_cand groups: 0
+[2026-06-13 14:01:08] Average candidates per group: 105.56
+[2026-06-13 14:01:08] 
+Building test ranking dataset...
+[2026-06-13 14:01:24] Loaded ranking groups: 2717
+[2026-06-13 14:01:24] Loaded candidate rows: 288472
+[2026-06-13 14:01:24] Feature dimension: 21
+[2026-06-13 14:01:24] Skipped samples: 0
+[2026-06-13 14:01:24] Tied-score groups: 0
+[2026-06-13 14:01:24] Inconsistent stored best_cand groups: 0
+[2026-06-13 14:01:24] Average candidates per group: 106.17
+[2026-06-13 14:01:24] 
+Training XGBoost Ranker...
+[2026-06-13 14:04:40] ================================================================================
+[2026-06-13 14:04:40] XGBoost Ranker branching training started
+[2026-06-13 14:04:40] ================================================================================
+[2026-06-13 14:04:40] Total sample files found: 13583
+[2026-06-13 14:04:40] Train sample files: 9779
+[2026-06-13 14:04:40] Val sample files:   1087
+[2026-06-13 14:04:40] Test sample files:  2717
+[2026-06-13 14:04:40] 
+Building train ranking dataset...
+[2026-06-13 14:05:28] Loaded ranking groups: 9779
+[2026-06-13 14:05:28] Loaded candidate rows: 1041708
+[2026-06-13 14:05:28] Feature dimension: 21
+[2026-06-13 14:05:28] Skipped samples: 0
+[2026-06-13 14:05:28] Tied-score groups: 0
+[2026-06-13 14:05:28] Inconsistent stored best_cand groups: 0
+[2026-06-13 14:05:28] Average candidates per group: 106.53
+[2026-06-13 14:05:28] 
+Building validation ranking dataset...
+[2026-06-13 14:05:35] Loaded ranking groups: 1087
+[2026-06-13 14:05:35] Loaded candidate rows: 114741
+[2026-06-13 14:05:35] Feature dimension: 21
+[2026-06-13 14:05:35] Skipped samples: 0
+[2026-06-13 14:05:35] Tied-score groups: 0
+[2026-06-13 14:05:35] Inconsistent stored best_cand groups: 0
+[2026-06-13 14:05:35] Average candidates per group: 105.56
+[2026-06-13 14:05:35] 
+Building test ranking dataset...
+[2026-06-13 14:05:48] Loaded ranking groups: 2717
+[2026-06-13 14:05:48] Loaded candidate rows: 288472
+[2026-06-13 14:05:48] Feature dimension: 21
+[2026-06-13 14:05:48] Skipped samples: 0
+[2026-06-13 14:05:48] Tied-score groups: 0
+[2026-06-13 14:05:48] Inconsistent stored best_cand groups: 0
+[2026-06-13 14:05:48] Average candidates per group: 106.17
+[2026-06-13 14:05:48] 
+Training XGBoost Ranker...
+[2026-06-13 14:08:29] 
+Evaluating ranker...
+[2026-06-13 14:08:30] Train ranking: {'top1_accuracy': 0.1196441353921669, 'top3_accuracy': 0.26536455670313935, 'mean_regret': 0.6114336077891653, 'mean_normalized_regret': 0.4845221256053335, 'num_groups': 9779}
+[2026-06-13 14:08:30] Val ranking:   {'top1_accuracy': 0.12051517939282429, 'top3_accuracy': 0.265869365225391, 'mean_regret': 0.601081028424087, 'mean_normalized_regret': 0.484479161870676, 'num_groups': 1087}
+[2026-06-13 14:08:30] Test ranking:  {'top1_accuracy': 0.12108943687891056, 'top3_accuracy': 0.27235921972764077, 'mean_regret': 0.6136739751978717, 'mean_normalized_regret': 0.48825269638676944, 'num_groups': 2717}
+[2026-06-13 14:08:30] 
+Baselines on test:
+[2026-06-13 14:08:30] Random baseline:         {'top1_accuracy': 0.009937430990062569, 'top3_accuracy': 0.033860875966139126, 'mean_regret': 1.0115795434298813, 'num_groups': 2717}
+[2026-06-13 14:08:30] Candidate-order baseline:{'top1_accuracy': 0.0673536989326463, 'top3_accuracy': 0.13617960986382038, 'mean_regret': 0.7844268179593223, 'num_groups': 2717}
+[2026-06-13 14:08:30] 
+Saved files:
+[2026-06-13 14:08:30] Model:              outputs/xgboost_ranker_branching/xgboost_ranker_branching_model.joblib
+[2026-06-13 14:08:30] Results:            outputs/xgboost_ranker_branching/xgboost_ranker_results.json
+[2026-06-13 14:08:30] Feature importance: outputs/xgboost_ranker_branching/feature_importances.txt
+[2026-06-13 14:08:30] 
+Final test ranking:
+[2026-06-13 14:08:30] Top-1 accuracy: 0.1211
+[2026-06-13 14:08:30] Top-3 accuracy: 0.2724
+[2026-06-13 14:08:30] Mean regret:    0.613674
+[2026-06-13 14:08:30] 
+Done.

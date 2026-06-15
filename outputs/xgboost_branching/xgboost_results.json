@@ -1,0 +1,49 @@
+{
+    "config": {
+        "samples_dir": "data_arc_features/samples/cvrp/debug",
+        "test_size": 0.2,
+        "val_size": 0.1,
+        "random_seed": 42,
+        "use_node_depth": true,
+        "use_candidate_rank_feature": true,
+        "use_score_normalization": true
+    },
+    "regression": {
+        "train": {
+            "mse": 0.03360089287161827,
+            "rmse": 0.18330546328906366,
+            "mae": 0.12615515291690826
+        },
+        "val": {
+            "mse": 0.03465880826115608,
+            "rmse": 0.18616876285015185,
+            "mae": 0.12831775844097137
+        },
+        "test": {
+            "mse": 0.03379765897989273,
+            "rmse": 0.1838413962629003,
+            "mae": 0.1262529045343399
+        }
+    },
+    "ranking": {
+        "train": {
+            "top1_accuracy": 0.014827691993046324,
+            "top3_accuracy": 0.043358216586563046,
+            "mean_regret": -0.28243547474150127,
+            "num_samples": 9779
+        },
+        "val": {
+            "top1_accuracy": 0.013799448022079117,
+            "top3_accuracy": 0.04231830726770929,
+            "mean_regret": -0.27332768076516706,
+            "num_samples": 1087
+        },
+        "test": {
+            "top1_accuracy": 0.0180345969819654,
+            "top3_accuracy": 0.04637467795362532,
+            "mean_regret": -0.39671489996395926,
+            "num_samples": 2717
+        }
+    },
+    "model_path": "outputs/xgboost_branching/xgboost_branching_model.joblib"
+}

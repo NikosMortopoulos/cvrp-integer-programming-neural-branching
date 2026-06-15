@@ -1,0 +1,51 @@
+{
+    "config": {
+        "samples_dir": "data_arc_features/samples/cvrp/debug",
+        "test_size": 0.2,
+        "val_size": 0.1,
+        "random_seed": 42,
+        "use_node_depth": true,
+        "use_candidate_rank_feature": true,
+        "use_score_normalization": true,
+        "model": "XGBRanker",
+        "objective": "rank:pairwise"
+    },
+    "ranking": {
+        "train": {
+            "top1_accuracy": 0.1196441353921669,
+            "top3_accuracy": 0.26536455670313935,
+            "mean_regret": 0.6114336077891653,
+            "mean_normalized_regret": 0.4845221256053335,
+            "num_groups": 9779
+        },
+        "val": {
+            "top1_accuracy": 0.12051517939282429,
+            "top3_accuracy": 0.265869365225391,
+            "mean_regret": 0.601081028424087,
+            "mean_normalized_regret": 0.484479161870676,
+            "num_groups": 1087
+        },
+        "test": {
+            "top1_accuracy": 0.12108943687891056,
+            "top3_accuracy": 0.27235921972764077,
+            "mean_regret": 0.6136739751978717,
+            "mean_normalized_regret": 0.48825269638676944,
+            "num_groups": 2717
+        }
+    },
+    "baselines": {
+        "random_test": {
+            "top1_accuracy": 0.009937430990062569,
+            "top3_accuracy": 0.033860875966139126,
+            "mean_regret": 1.0115795434298813,
+            "num_groups": 2717
+        },
+        "candidate_order_test": {
+            "top1_accuracy": 0.0673536989326463,
+            "top3_accuracy": 0.13617960986382038,
+            "mean_regret": 0.7844268179593223,
+            "num_groups": 2717
+        }
+    },
+    "model_path": "outputs/xgboost_ranker_branching/xgboost_ranker_branching_model.joblib"
+}
