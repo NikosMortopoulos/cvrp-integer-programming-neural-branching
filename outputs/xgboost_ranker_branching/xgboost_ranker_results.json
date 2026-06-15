@@ -12,39 +12,39 @@
     },
     "ranking": {
         "train": {
-            "top1_accuracy": 0.1196441353921669,
-            "top3_accuracy": 0.26536455670313935,
-            "mean_regret": 0.6114336077891653,
-            "mean_normalized_regret": 0.4845221256053335,
-            "num_groups": 9779
+            "top1_accuracy": 0.15904051602499497,
+            "top3_accuracy": 0.3777464220923201,
+            "mean_regret": 0.924361613076204,
+            "mean_normalized_regret": 0.42884364783679024,
+            "num_groups": 4961
         },
         "val": {
-            "top1_accuracy": 0.12051517939282429,
-            "top3_accuracy": 0.265869365225391,
-            "mean_regret": 0.601081028424087,
-            "mean_normalized_regret": 0.484479161870676,
-            "num_groups": 1087
+            "top1_accuracy": 0.16304347826086957,
+            "top3_accuracy": 0.3786231884057971,
+            "mean_regret": 0.9313167875013226,
+            "mean_normalized_regret": 0.4314611332200641,
+            "num_groups": 552
         },
         "test": {
-            "top1_accuracy": 0.12108943687891056,
-            "top3_accuracy": 0.27235921972764077,
-            "mean_regret": 0.6136739751978717,
-            "mean_normalized_regret": 0.48825269638676944,
-            "num_groups": 2717
+            "top1_accuracy": 0.1457577955039884,
+            "top3_accuracy": 0.36765772298767224,
+            "mean_regret": 0.9315766515750546,
+            "mean_normalized_regret": 0.44377741309778357,
+            "num_groups": 1379
         }
     },
     "baselines": {
         "random_test": {
-            "top1_accuracy": 0.009937430990062569,
-            "top3_accuracy": 0.033860875966139126,
-            "mean_regret": 1.0115795434298813,
-            "num_groups": 2717
+            "top1_accuracy": 0.03118201595358956,
+            "top3_accuracy": 0.09064539521392313,
+            "mean_regret": 1.4821809723733832,
+            "num_groups": 1379
         },
         "candidate_order_test": {
-            "top1_accuracy": 0.0673536989326463,
-            "top3_accuracy": 0.13617960986382038,
-            "mean_regret": 0.7844268179593223,
-            "num_groups": 2717
+            "top1_accuracy": 0.1218274111675127,
+            "top3_accuracy": 0.2610587382160986,
+            "mean_regret": 1.1220331988803496,
+            "num_groups": 1379
         }
     },
     "model_path": "outputs/xgboost_ranker_branching/xgboost_ranker_branching_model.joblib"

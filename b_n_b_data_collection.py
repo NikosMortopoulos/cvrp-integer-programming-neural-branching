@@ -201,7 +201,7 @@ def branch_and_bound_simple(
     
     stack = deque()
     counter = count()
-    node_record_prob = 0.05
+    node_record_prob = 0.2
 
     
     solutions = list()
@@ -633,62 +633,34 @@ def generate_cvrp_branching_dataset(
 if __name__ == "__main__":
     generate_cvrp_branching_dataset(
         num_instances=50,
-        n_customers=80,
+        n_customers=37,
+        q_ratio=0.30,
+        samples_per_instance=50,
+        max_sb_candidates=None,
+        seed=0,
+        out_dir="data_arc_features/samples/cvrp/debug",
+        category_type="90var_30q_6rd",
+    )
+
+    generate_cvrp_branching_dataset(
+        num_instances=50,
+        n_customers=35,
+        q_ratio=0.40,
+        samples_per_instance=50,
+        max_sb_candidates=None,
+        seed=0,
+        out_dir="data_arc_features/samples/cvrp/debug",
+        category_type="90var_25q_6rd",
+    )
+
+    generate_cvrp_branching_dataset(
+        num_instances=50,
+        n_customers=30,
         q_ratio=0.25,
-        samples_per_instance=20,
+        samples_per_instance=50,
         max_sb_candidates=None,
         seed=0,
         out_dir="data_arc_features/samples/cvrp/debug",
-        category_type="90var_30q_5rd",
+        category_type="60var_30q_6rd",
     )
 
-    generate_cvrp_branching_dataset(
-        num_instances=50,
-        n_customers=50,
-        q_ratio=0.25,
-        samples_per_instance=20,
-        max_sb_candidates=None,
-        seed=0,
-        out_dir="data_arc_features/samples/cvrp/debug",
-        category_type="90var_25q_5rd",
-    )
-
-    generate_cvrp_branching_dataset(
-        num_instances=50,
-        n_customers=60,
-        q_ratio=0.25,
-        samples_per_instance=20,
-        max_sb_candidates=None,
-        seed=0,
-        out_dir="data_arc_features/samples/cvrp/debug",
-        category_type="60var_30q_5rd",
-    )
-
-
-    generate_cvrp_branching_dataset(
-        num_instances=50,
-        n_customers=40,
-        q_ratio=0.20,
-        samples_per_instance=20,
-        max_sb_candidates=None,
-        seed=0,
-        out_dir="data_arc_features/samples/cvrp/debug",
-        category_type="80var_30q_5rd",
-    )
-
-
-    generate_cvrp_branching_dataset(
-        num_instances=50,
-        n_customers=50,
-        q_ratio=0.24,
-        samples_per_instance=20,
-        max_sb_candidates=None,
-        seed=0,
-        out_dir="data_arc_features/samples/cvrp/debug",
-        category_type="70var_30q_5rd",
-    )
-
-
-
-
-    

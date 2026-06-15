@@ -1,54 +1,54 @@
-[2026-06-13 19:30:11.801016] Device: cuda
-[2026-06-13 19:30:11.801897] Total samples: 13583
-[2026-06-13 19:30:11.802138] Train samples: 10867
-[2026-06-13 19:30:11.802189] Valid samples: 1358
-[2026-06-13 19:30:11.802350] Test samples: 1358
-[2026-06-13 19:30:11.802418] Split file: models/cvrp_gnn/data_split.json
-[2026-06-13 19:30:11.802443] CSV log file: models/cvrp_gnn/train_log.csv
-[2026-06-13 19:30:12.265233] Starting PreNorm initialization...
-[2026-06-13 19:31:38.275993] PreNorm round 1: initialized PreNormLayer
-[2026-06-13 19:32:39.562584] PreNorm round 2: initialized PreNormLayer
-[2026-06-13 19:33:41.200230] PreNorm round 3: initialized PreNormLayer
-[2026-06-13 19:34:50.692464] PreNorm round 4: initialized PreNormLayer
-[2026-06-13 19:35:54.906692] PreNorm round 5: initialized PreNormLayer
-[2026-06-13 19:37:07.048800] PreNorm round 6: initialized PreNormLayer
-[2026-06-13 19:38:26.039383] PreNorm round 7: initialized PreNormLayer
-[2026-06-13 19:39:50.401207] Finished PreNorm initialization.
-[2026-06-13 19:43:07.007335] Epoch 001 | train_loss=3.71469 | valid_loss=3.56522 | train_acc@1: 0.1008 train_acc@3: 0.2368 train_acc@5: 0.3427 train_acc@10: 0.5204 | valid_acc@1: 0.1119 valid_acc@3: 0.2835 valid_acc@5: 0.3940 valid_acc@10: 0.6031 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1699 valid_rank_pct=0.1407 | train_mrr=0.2121 valid_mrr=0.2432 | train_base_loss=3.71469 valid_base_loss=3.56522
-[2026-06-13 19:43:07.070230] Saved best model at epoch 1.
-[2026-06-13 19:46:55.062426] Epoch 002 | train_loss=3.55240 | valid_loss=3.47662 | train_acc@1: 0.1199 train_acc@3: 0.2757 train_acc@5: 0.3909 train_acc@10: 0.5913 | valid_acc@1: 0.1370 valid_acc@3: 0.2982 valid_acc@5: 0.4161 valid_acc@10: 0.6267 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1443 valid_rank_pct=0.1344 | train_mrr=0.2434 valid_mrr=0.2613 | train_base_loss=3.55240 valid_base_loss=3.47662
-[2026-06-13 19:46:55.076544] Saved best model at epoch 2.
-[2026-06-13 19:51:20.683356] Epoch 003 | train_loss=3.50721 | valid_loss=3.48267 | train_acc@1: 0.1251 train_acc@3: 0.2910 train_acc@5: 0.4090 train_acc@10: 0.6080 | valid_acc@1: 0.1303 valid_acc@3: 0.3004 valid_acc@5: 0.4057 valid_acc@10: 0.6281 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1392 valid_rank_pct=0.1338 | train_mrr=0.2514 valid_mrr=0.2570 | train_base_loss=3.50721 valid_base_loss=3.48267
-[2026-06-13 19:55:35.128197] Epoch 004 | train_loss=3.52430 | valid_loss=3.45217 | train_acc@1: 0.1282 train_acc@3: 0.2930 train_acc@5: 0.4067 train_acc@10: 0.6020 | valid_acc@1: 0.1333 valid_acc@3: 0.2975 valid_acc@5: 0.4190 valid_acc@10: 0.6362 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1405 valid_rank_pct=0.1323 | train_mrr=0.2534 valid_mrr=0.2599 | train_base_loss=3.52430 valid_base_loss=3.45217
-[2026-06-13 19:55:35.189233] Saved best model at epoch 4.
-[2026-06-13 20:00:03.621737] Epoch 005 | train_loss=3.50613 | valid_loss=3.49688 | train_acc@1: 0.1221 train_acc@3: 0.2898 train_acc@5: 0.4084 train_acc@10: 0.6077 | valid_acc@1: 0.1377 valid_acc@3: 0.3049 valid_acc@5: 0.4323 valid_acc@10: 0.6333 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1387 valid_rank_pct=0.1311 | train_mrr=0.2507 valid_mrr=0.2647 | train_base_loss=3.50613 valid_base_loss=3.49688
-[2026-06-13 20:04:01.567461] Epoch 006 | train_loss=3.49822 | valid_loss=3.45555 | train_acc@1: 0.1265 train_acc@3: 0.2924 train_acc@5: 0.4093 train_acc@10: 0.6061 | valid_acc@1: 0.1296 valid_acc@3: 0.3012 valid_acc@5: 0.4315 valid_acc@10: 0.6384 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1385 valid_rank_pct=0.1326 | train_mrr=0.2542 valid_mrr=0.2624 | train_base_loss=3.49822 valid_base_loss=3.45555
-[2026-06-13 20:08:18.976851] Epoch 007 | train_loss=3.49713 | valid_loss=3.45657 | train_acc@1: 0.1257 train_acc@3: 0.2917 train_acc@5: 0.4136 train_acc@10: 0.6084 | valid_acc@1: 0.1377 valid_acc@3: 0.3108 valid_acc@5: 0.4286 valid_acc@10: 0.6370 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1390 valid_rank_pct=0.1316 | train_mrr=0.2527 valid_mrr=0.2669 | train_base_loss=3.49713 valid_base_loss=3.45657
-[2026-06-13 20:12:31.909988] Epoch 008 | train_loss=3.48992 | valid_loss=3.44016 | train_acc@1: 0.1286 train_acc@3: 0.2935 train_acc@5: 0.4125 train_acc@10: 0.6083 | valid_acc@1: 0.1436 valid_acc@3: 0.3122 valid_acc@5: 0.4249 valid_acc@10: 0.6340 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1380 valid_rank_pct=0.1321 | train_mrr=0.2550 valid_mrr=0.2699 | train_base_loss=3.48992 valid_base_loss=3.44016
-[2026-06-13 20:12:31.960430] Saved best model at epoch 8.
-[2026-06-13 20:16:25.163954] Epoch 009 | train_loss=3.49270 | valid_loss=3.45982 | train_acc@1: 0.1269 train_acc@3: 0.2948 train_acc@5: 0.4129 train_acc@10: 0.6141 | valid_acc@1: 0.1384 valid_acc@3: 0.2990 valid_acc@5: 0.4227 valid_acc@10: 0.6406 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1380 valid_rank_pct=0.1329 | train_mrr=0.2546 valid_mrr=0.2652 | train_base_loss=3.49270 valid_base_loss=3.45982
-[2026-06-13 20:20:46.837757] Epoch 010 | train_loss=3.48483 | valid_loss=3.46564 | train_acc@1: 0.1268 train_acc@3: 0.2957 train_acc@5: 0.4126 train_acc@10: 0.6130 | valid_acc@1: 0.1384 valid_acc@3: 0.3130 valid_acc@5: 0.4212 valid_acc@10: 0.6340 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1375 valid_rank_pct=0.1334 | train_mrr=0.2548 valid_mrr=0.2670 | train_base_loss=3.48483 valid_base_loss=3.46564
-[2026-06-13 20:24:30.638621] Epoch 011 | train_loss=3.47919 | valid_loss=3.43256 | train_acc@1: 0.1279 train_acc@3: 0.2947 train_acc@5: 0.4103 train_acc@10: 0.6161 | valid_acc@1: 0.1370 valid_acc@3: 0.3137 valid_acc@5: 0.4234 valid_acc@10: 0.6392 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1365 valid_rank_pct=0.1314 | train_mrr=0.2558 valid_mrr=0.2660 | train_base_loss=3.47919 valid_base_loss=3.43256
-[2026-06-13 20:24:30.702682] Saved best model at epoch 11.
-[2026-06-13 20:28:29.965354] Epoch 012 | train_loss=3.47711 | valid_loss=3.44476 | train_acc@1: 0.1284 train_acc@3: 0.2982 train_acc@5: 0.4198 train_acc@10: 0.6189 | valid_acc@1: 0.1362 valid_acc@3: 0.3130 valid_acc@5: 0.4249 valid_acc@10: 0.6502 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1365 valid_rank_pct=0.1306 | train_mrr=0.2577 valid_mrr=0.2659 | train_base_loss=3.47711 valid_base_loss=3.44476
-[2026-06-13 20:32:23.501269] Epoch 013 | train_loss=3.47477 | valid_loss=3.44583 | train_acc@1: 0.1228 train_acc@3: 0.2992 train_acc@5: 0.4152 train_acc@10: 0.6182 | valid_acc@1: 0.1296 valid_acc@3: 0.3027 valid_acc@5: 0.4161 valid_acc@10: 0.6362 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1359 valid_rank_pct=0.1326 | train_mrr=0.2548 valid_mrr=0.2601 | train_base_loss=3.47477 valid_base_loss=3.44583
-[2026-06-13 20:36:13.130416] Epoch 014 | train_loss=3.48477 | valid_loss=3.48172 | train_acc@1: 0.1273 train_acc@3: 0.2952 train_acc@5: 0.4130 train_acc@10: 0.6166 | valid_acc@1: 0.1333 valid_acc@3: 0.2990 valid_acc@5: 0.4190 valid_acc@10: 0.6215 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1366 valid_rank_pct=0.1346 | train_mrr=0.2553 valid_mrr=0.2609 | train_base_loss=3.48477 valid_base_loss=3.48172
-[2026-06-13 20:40:39.473460] Epoch 015 | train_loss=3.49949 | valid_loss=3.48167 | train_acc@1: 0.1265 train_acc@3: 0.2922 train_acc@5: 0.4149 train_acc@10: 0.6082 | valid_acc@1: 0.1348 valid_acc@3: 0.3056 valid_acc@5: 0.4205 valid_acc@10: 0.6105 | train_cands_avg=106.2 train_cands_min=16 train_cands_max=214 | valid_cands_avg=108.2 valid_cands_min=23 valid_cands_max=209 | train_rank_pct=0.1386 valid_rank_pct=0.1365 | train_mrr=0.2548 valid_mrr=0.2651 | train_base_loss=3.49949 valid_base_loss=3.48167
-[2026-06-13 20:40:39.505013] Early stopping.
-[2026-06-13 20:40:39.505286] Best valid loss: 3.43256
-[2026-06-13 20:41:39.521302] Final test results:
-[2026-06-13 20:41:39.522791] {
-  "test_loss": 3.3862998457474633,
-  "test_acc_at_1": 0.13770250371480375,
-  "test_acc_at_3": 0.32106038326718495,
-  "test_acc_at_5": 0.44477172312223856,
-  "test_acc_at_10": 0.6399116351959105,
+[2026-06-15 21:04:29.501451] Device: cuda
+[2026-06-15 21:04:29.501891] Total samples: 6952
+[2026-06-15 21:04:29.502115] Train samples: 5562
+[2026-06-15 21:04:29.502189] Valid samples: 695
+[2026-06-15 21:04:29.502233] Test samples: 695
+[2026-06-15 21:04:29.502272] Split file: models/cvrp_gnn/data_split.json
+[2026-06-15 21:04:29.502315] CSV log file: models/cvrp_gnn/train_log.csv
+[2026-06-15 21:04:30.760944] Starting PreNorm initialization...
+[2026-06-15 21:04:53.707593] PreNorm round 1: initialized PreNormLayer
+[2026-06-15 21:05:11.350627] PreNorm round 2: initialized PreNormLayer
+[2026-06-15 21:05:31.562449] PreNorm round 3: initialized PreNormLayer
+[2026-06-15 21:05:48.413439] PreNorm round 4: initialized PreNormLayer
+[2026-06-15 21:06:08.071727] PreNorm round 5: initialized PreNormLayer
+[2026-06-15 21:06:25.601336] PreNorm round 6: initialized PreNormLayer
+[2026-06-15 21:06:48.351736] PreNorm round 7: initialized PreNormLayer
+[2026-06-15 21:07:05.909286] Finished PreNorm initialization.
+[2026-06-15 21:07:50.003204] Epoch 001 | train_loss=3.01070 | valid_loss=2.90651 | train_acc@1: 0.1755 train_acc@3: 0.3963 train_acc@5: 0.5424 train_acc@10: 0.7641 | valid_acc@1: 0.2086 valid_acc@3: 0.4475 valid_acc@5: 0.5986 valid_acc@10: 0.8086 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2520 valid_rank_pct=0.2294 | train_mrr=0.2957 valid_mrr=0.3252 | train_base_loss=3.01070 valid_base_loss=2.90651
+[2026-06-15 21:07:50.046724] Saved best model at epoch 1.
+[2026-06-15 21:08:33.387892] Epoch 002 | train_loss=2.90217 | valid_loss=2.89477 | train_acc@1: 0.1884 train_acc@3: 0.4356 train_acc@5: 0.5829 train_acc@10: 0.8035 | valid_acc@1: 0.2158 valid_acc@3: 0.4331 valid_acc@5: 0.6029 valid_acc@10: 0.8302 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2299 valid_rank_pct=0.2283 | train_mrr=0.3204 valid_mrr=0.3250 | train_base_loss=2.90217 valid_base_loss=2.89477
+[2026-06-15 21:08:33.405853] Saved best model at epoch 2.
+[2026-06-15 21:09:15.560623] Epoch 003 | train_loss=2.87792 | valid_loss=2.80778 | train_acc@1: 0.1917 train_acc@3: 0.4396 train_acc@5: 0.5939 train_acc@10: 0.8229 | valid_acc@1: 0.2201 valid_acc@3: 0.4763 valid_acc@5: 0.6216 valid_acc@10: 0.8475 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2250 valid_rank_pct=0.2123 | train_mrr=0.3237 valid_mrr=0.3443 | train_base_loss=2.87792 valid_base_loss=2.80778
+[2026-06-15 21:09:15.582732] Saved best model at epoch 3.
+[2026-06-15 21:09:58.195690] Epoch 004 | train_loss=2.84524 | valid_loss=2.79393 | train_acc@1: 0.2055 train_acc@3: 0.4583 train_acc@5: 0.6163 train_acc@10: 0.8364 | valid_acc@1: 0.2101 valid_acc@3: 0.4734 valid_acc@5: 0.6201 valid_acc@10: 0.8273 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2196 valid_rank_pct=0.2097 | train_mrr=0.3352 valid_mrr=0.3421 | train_base_loss=2.84524 valid_base_loss=2.79393
+[2026-06-15 21:09:58.218012] Saved best model at epoch 4.
+[2026-06-15 21:10:41.528155] Epoch 005 | train_loss=2.85009 | valid_loss=2.83400 | train_acc@1: 0.2048 train_acc@3: 0.4572 train_acc@5: 0.6185 train_acc@10: 0.8353 | valid_acc@1: 0.2216 valid_acc@3: 0.4662 valid_acc@5: 0.6245 valid_acc@10: 0.8201 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2212 valid_rank_pct=0.2124 | train_mrr=0.3328 valid_mrr=0.3441 | train_base_loss=2.85009 valid_base_loss=2.83400
+[2026-06-15 21:11:24.333318] Epoch 006 | train_loss=2.84115 | valid_loss=2.81080 | train_acc@1: 0.1985 train_acc@3: 0.4590 train_acc@5: 0.6257 train_acc@10: 0.8394 | valid_acc@1: 0.2144 valid_acc@3: 0.4921 valid_acc@5: 0.6345 valid_acc@10: 0.8288 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2191 valid_rank_pct=0.2115 | train_mrr=0.3307 valid_mrr=0.3457 | train_base_loss=2.84115 valid_base_loss=2.81080
+[2026-06-15 21:12:07.579142] Epoch 007 | train_loss=2.83040 | valid_loss=2.78726 | train_acc@1: 0.1990 train_acc@3: 0.4653 train_acc@5: 0.6260 train_acc@10: 0.8432 | valid_acc@1: 0.2302 valid_acc@3: 0.4849 valid_acc@5: 0.6532 valid_acc@10: 0.8360 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2179 valid_rank_pct=0.2084 | train_mrr=0.3352 valid_mrr=0.3531 | train_base_loss=2.83040 valid_base_loss=2.78726
+[2026-06-15 21:12:07.655586] Saved best model at epoch 7.
+[2026-06-15 21:12:48.737274] Epoch 008 | train_loss=2.83428 | valid_loss=2.79282 | train_acc@1: 0.2003 train_acc@3: 0.4567 train_acc@5: 0.6250 train_acc@10: 0.8393 | valid_acc@1: 0.2331 valid_acc@3: 0.4734 valid_acc@5: 0.6273 valid_acc@10: 0.8245 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2176 valid_rank_pct=0.2091 | train_mrr=0.3333 valid_mrr=0.3553 | train_base_loss=2.83428 valid_base_loss=2.79282
+[2026-06-15 21:13:30.151627] Epoch 009 | train_loss=2.83149 | valid_loss=2.80402 | train_acc@1: 0.1997 train_acc@3: 0.4648 train_acc@5: 0.6262 train_acc@10: 0.8341 | valid_acc@1: 0.2302 valid_acc@3: 0.4993 valid_acc@5: 0.6460 valid_acc@10: 0.8374 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2181 valid_rank_pct=0.2094 | train_mrr=0.3352 valid_mrr=0.3537 | train_base_loss=2.83149 valid_base_loss=2.80402
+[2026-06-15 21:14:11.610299] Epoch 010 | train_loss=2.82662 | valid_loss=2.78324 | train_acc@1: 0.1999 train_acc@3: 0.4642 train_acc@5: 0.6233 train_acc@10: 0.8407 | valid_acc@1: 0.2187 valid_acc@3: 0.4892 valid_acc@5: 0.6259 valid_acc@10: 0.8288 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2175 valid_rank_pct=0.2095 | train_mrr=0.3355 valid_mrr=0.3522 | train_base_loss=2.82662 valid_base_loss=2.78324
+[2026-06-15 21:14:11.634908] Saved best model at epoch 10.
+[2026-06-15 21:14:52.743218] Epoch 011 | train_loss=2.83252 | valid_loss=2.79514 | train_acc@1: 0.2053 train_acc@3: 0.4585 train_acc@5: 0.6246 train_acc@10: 0.8385 | valid_acc@1: 0.2230 valid_acc@3: 0.4878 valid_acc@5: 0.6403 valid_acc@10: 0.8230 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2177 valid_rank_pct=0.2111 | train_mrr=0.3380 valid_mrr=0.3543 | train_base_loss=2.83252 valid_base_loss=2.79514
+[2026-06-15 21:15:36.496359] Epoch 012 | train_loss=2.83733 | valid_loss=2.79198 | train_acc@1: 0.2041 train_acc@3: 0.4640 train_acc@5: 0.6296 train_acc@10: 0.8434 | valid_acc@1: 0.2288 valid_acc@3: 0.4993 valid_acc@5: 0.6345 valid_acc@10: 0.8489 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2171 valid_rank_pct=0.2106 | train_mrr=0.3379 valid_mrr=0.3533 | train_base_loss=2.83733 valid_base_loss=2.79198
+[2026-06-15 21:16:16.226944] Epoch 013 | train_loss=2.82494 | valid_loss=2.79923 | train_acc@1: 0.2111 train_acc@3: 0.4682 train_acc@5: 0.6241 train_acc@10: 0.8434 | valid_acc@1: 0.2230 valid_acc@3: 0.4964 valid_acc@5: 0.6388 valid_acc@10: 0.8446 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2150 valid_rank_pct=0.2096 | train_mrr=0.3430 valid_mrr=0.3453 | train_base_loss=2.82494 valid_base_loss=2.79923
+[2026-06-15 21:16:58.120276] Epoch 014 | train_loss=2.83237 | valid_loss=2.80004 | train_acc@1: 0.2024 train_acc@3: 0.4567 train_acc@5: 0.6248 train_acc@10: 0.8457 | valid_acc@1: 0.2216 valid_acc@3: 0.4935 valid_acc@5: 0.6576 valid_acc@10: 0.8360 | train_cands_avg=36.9 train_cands_min=4 train_cands_max=85 | valid_cands_avg=36.9 valid_cands_min=6 valid_cands_max=80 | train_rank_pct=0.2175 valid_rank_pct=0.2088 | train_mrr=0.3339 valid_mrr=0.3542 | train_base_loss=2.83237 valid_base_loss=2.80004
+[2026-06-15 21:16:58.121012] Early stopping.
+[2026-06-15 21:16:58.121143] Best valid loss: 2.78324
+[2026-06-15 21:17:02.379845] Final test results:
+[2026-06-15 21:17:02.380268] {
+  "test_loss": 2.88266035704304,
+  "test_acc_at_1": 0.189928057189468,
+  "test_acc_at_3": 0.4489208624088507,
+  "test_acc_at_5": 0.6143884877506778,
+  "test_acc_at_10": 0.8359712219924378,
   "test_stats": {
-    "avg_candidates": 105.57879234167893,
-    "min_candidates": 19,
-    "max_candidates": 207,
-    "mean_rank_percentile": 0.1261526741603297,
-    "mean_mrr": 0.27091502159318953,
-    "base_loss": 3.3862998457474633
+    "avg_candidates": 37.516546762589925,
+    "min_candidates": 6,
+    "max_candidates": 80,
+    "mean_rank_percentile": 0.21797206683477197,
+    "mean_mrr": 0.32393948395302613,
+    "base_loss": 2.88266035704304
   }
 }

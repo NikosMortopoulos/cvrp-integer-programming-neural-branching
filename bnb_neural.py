@@ -258,7 +258,7 @@ def branch_and_bound(
     if optimized:
         best_heuristic, best_heuristic_routes = get_validated_clarke_wright_incumbent(
             instance=instance,
-            trials=10000,
+            trials=1000,
             skip_prob=0.0,
             verbose=True,
         )
@@ -908,7 +908,7 @@ if __name__ == "__main__":
     PROBLEMS_DIR.mkdir(parents=True, exist_ok=True)
 
     # This TXT contains ONLY summary tables, not full logs
-    LOG_FILE = OUT_DIR / "cvrp_bnb_summary_log_final_experiment.txt"
+    LOG_FILE = OUT_DIR / "cvrp_bnb_summary_log_continue.txt"
 
     # This CSV contains machine-readable results
     SUMMARY_CSV = OUT_DIR / "cvrp_bnb_summary.csv"
@@ -950,36 +950,7 @@ if __name__ == "__main__":
             "Q_ratio": 0.40,
         },
        
-        {
-            "category_id": 6,
-            "name": "C06_mid_13_customers_Q025",
-            "n_customers": 13,
-            "Q_ratio": 0.35,
-        },
-        {
-            "category_id": 7,
-            "name": "C07_mid_hard_14_customers_Q025",
-            "n_customers": 13,
-            "Q_ratio": 0.30,
-        },
-        {
-            "category_id": 8,
-            "name": "C08_hard_15_customers_Q025",
-            "n_customers": 15,
-            "Q_ratio": 0.30,
-        },
-        { 
-            "category_id": 9,
-            "name": "C09_harder_16_customers_Q022",
-            "n_customers": 15,
-            "Q_ratio": 0.35,
-        },
-        {
-            "category_id": 10,
-            "name": "C10_hardest_18_customers_Q022",
-            "n_customers": 17,
-            "Q_ratio": 0.35,
-        },
+       
     ]
 
     PROBLEMS_PER_CATEGORY = 5

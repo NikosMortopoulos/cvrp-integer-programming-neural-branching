@@ -1,19 +1,41 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+.ipynb_checkpoints/
 
-# C extensions
-*.so
-
-# Conda environments
+# Environments
 .conda/
 env/
 venv/
+.venv/
 
-# Visual Studio / VS Code
-.vs/
+# IDE
 .vscode/
-bin/
-obj/
-out/
+.idea/
+.vs/
+
+# Heavy experiment outputs
+
+saved_problems/
+data_arc_features/
+
+
+# Generated data / models
+*.pkl
+*.pickle
+*.pth
+*.ckpt
+
+
+# Solver files
+*.lp
+*.mps
+*.sol
+*.mst
+*.bas
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z

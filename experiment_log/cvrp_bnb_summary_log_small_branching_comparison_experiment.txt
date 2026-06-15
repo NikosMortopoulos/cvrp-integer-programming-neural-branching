@@ -1,0 +1,380 @@
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 1
+Seed: 1101
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_01_n_8_q_035_seed_1101.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   572.689336 |      182 |     0.3408 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   572.689336 |       33 |     2.4850 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   572.689336 |       20 |     3.1516 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   572.689336 |       70 |     1.5489 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   572.689336 |       30 |     1.2645 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 2
+Seed: 1102
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_02_n_8_q_035_seed_1102.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   412.869221 |        1 |     0.0901 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   412.869221 |        0 |     0.4897 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   412.869221 |        0 |     0.6172 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   412.869221 |        0 |     0.4780 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   412.869221 |        0 |     0.4728 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 3
+Seed: 1103
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_03_n_8_q_035_seed_1103.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   481.271437 |      164 |     0.2559 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   481.271437 |        4 |     1.1609 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   481.271437 |       11 |     2.0576 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   481.271437 |       30 |     1.1044 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   481.271437 |       53 |     1.6246 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 4
+Seed: 1104
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_04_n_8_q_035_seed_1104.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   650.987801 |      283 |     0.2202 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   650.987801 |        0 |     0.4728 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   650.987801 |        0 |     3.4313 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   650.987801 |        0 |     0.5205 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   650.987801 |        0 |     0.4616 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 5
+Seed: 1105
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_05_n_8_q_035_seed_1105.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   421.720515 |     1020 |     0.3845 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   421.720515 |      105 |     3.3348 |      0.0000% |    bnb_integer
+Enhanced B&B with full strong branching at every node        |   421.720515 |       64 |     7.6474 |      0.0000% |    bnb_integer
+Enhanced B&B with XGBoost ranker branching                   |   421.720515 |      204 |     3.6883 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   421.720515 |       83 |     2.7186 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 1
+Seed: 1201
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_01_n_9_q_035_seed_1201.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   430.948264 |      392 |     0.2840 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   430.948264 |        0 |     0.5103 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   430.948264 |        0 |     0.6208 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   430.948264 |        0 |     0.5507 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   430.948264 |        0 |     0.4973 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 2
+Seed: 1202
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_02_n_9_q_035_seed_1202.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   485.706995 |        1 |     0.0987 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   485.706995 |       14 |     0.9567 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   485.706995 |       34 |     2.1833 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   485.706995 |       33 |     1.8003 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   485.706995 |        4 |     0.7838 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 3
+Seed: 1203
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_03_n_9_q_035_seed_1203.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   543.395220 |      349 |     0.3680 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   543.395220 |       13 |     1.7771 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   543.395220 |       11 |     6.0536 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   543.395220 |       42 |     1.2927 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   543.395220 |        6 |     0.7437 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 4
+Seed: 1204
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_04_n_9_q_035_seed_1204.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   376.437525 |      117 |     0.3598 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   376.437525 |        0 |     0.5699 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   376.437525 |        1 |     0.8829 |      0.0000% |    bnb_integer
+Enhanced B&B with XGBoost ranker branching                   |   376.437525 |        0 |     0.7891 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   376.437525 |        0 |     0.7586 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 5
+Seed: 1205
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_05_n_9_q_035_seed_1205.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   586.385943 |       58 |     0.4349 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   586.385943 |        0 |     0.6049 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   586.385943 |        0 |     0.6399 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   586.385943 |        0 |     0.5938 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   586.385943 |        0 |     0.6789 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 1
+Seed: 1301
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_01_n_10_q_03_seed_1301.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   578.795129 |     1239 |     0.5297 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   578.795129 |       35 |     2.7207 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   578.795129 |       17 |     3.1725 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   578.795129 |       77 |     2.3259 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   578.795129 |       21 |     1.6055 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 2
+Seed: 1302
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_02_n_10_q_03_seed_1302.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   519.184398 |      376 |     0.4386 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   519.184398 |       19 |     2.7927 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   519.184398 |        8 |     3.4550 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   519.184398 |       33 |     1.9345 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   519.184398 |       44 |     2.2483 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 3
+Seed: 1303
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_03_n_10_q_03_seed_1303.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   458.841760 |     2121 |     0.5425 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   458.841760 |      102 |     7.9861 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   458.841760 |       32 |     7.0448 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   458.841760 |       92 |     2.6341 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   458.841760 |       94 |     2.9587 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 4
+Seed: 1304
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_04_n_10_q_03_seed_1304.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   623.484567 |      170 |     0.3865 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   623.484567 |        0 |     0.8158 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   623.484567 |        0 |     0.9963 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   623.484567 |        0 |     0.8249 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   623.484567 |        0 |     0.8379 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 5
+Seed: 1305
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_05_n_10_q_03_seed_1305.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   766.631977 |      151 |     0.5305 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   766.631977 |        0 |     0.8606 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   766.631977 |        0 |     0.9081 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   766.631977 |        0 |     0.8575 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   766.631977 |        0 |     0.8124 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 1
+Seed: 1401
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_01_n_11_q_03_seed_1401.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   395.946311 |       93 |     0.2502 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   395.946311 |        1 |     1.8568 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   395.946311 |        1 |     2.2857 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   395.946311 |        3 |     1.9391 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   395.946311 |       12 |     2.2833 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 2
+Seed: 1402
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_02_n_11_q_03_seed_1402.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   493.967880 |      102 |     0.5851 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   493.967880 |        0 |     1.1462 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   493.967880 |        0 |     1.3436 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   493.967880 |        0 |     1.0862 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   493.967880 |        0 |     1.1443 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 3
+Seed: 1403
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_03_n_11_q_03_seed_1403.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   525.973709 |     1717 |     0.5143 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   525.973709 |     2644 |    62.1453 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   525.973709 |      459 |    73.9055 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   525.973709 |     2348 |    46.5718 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   525.973709 |     3113 |    84.8635 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 4
+Seed: 1404
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_04_n_11_q_03_seed_1404.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   475.438636 |     1783 |     0.4997 |      0.0000% |         gurobi
+Enhanced B&B with depth-mixed branching: SB<=2, GNN<=6, stoc |   475.438636 |       50 |     5.6675 |      0.0000% |      heuristic
+Enhanced B&B with full strong branching at every node        |   475.438636 |        9 |     5.7823 |      0.0000% |      heuristic
+Enhanced B&B with XGBoost ranker branching                   |   475.438636 |       54 |     2.4848 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   475.438636 |      174 |     6.0322 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1098 @@
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 1
+Seed: 1101
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_01_n_8_q_035_seed_1101.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   572.689336 |     8638 |    39.3618 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   572.689336 |      182 |     0.2978 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   572.689336 |       70 |     1.4926 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   572.689336 |       30 |     1.6750 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 2
+Seed: 1102
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_02_n_8_q_035_seed_1102.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   412.869221 |     1781 |     7.7071 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   412.869221 |        1 |     0.0753 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   412.869221 |        0 |     0.3595 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   412.869221 |        0 |     0.3502 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 3
+Seed: 1103
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_03_n_8_q_035_seed_1103.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   481.271437 |     6949 |    32.9819 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   481.271437 |      164 |     0.2410 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   481.271437 |       30 |     0.9475 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   481.271437 |       53 |     1.6042 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 4
+Seed: 1104
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_04_n_8_q_035_seed_1104.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   650.987801 |     8284 |    39.0714 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   650.987801 |      283 |     0.2360 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   650.987801 |        0 |     0.3874 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   650.987801 |        0 |     0.3962 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 5
+Seed: 1105
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_05_n_8_q_035_seed_1105.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   421.720515 |    25523 |   125.4988 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   421.720515 |     1020 |     0.2967 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   421.720515 |      204 |     3.1878 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   421.720515 |       83 |     2.2885 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 7
+Seed: 1107
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_07_n_8_q_035_seed_1107.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   410.085864 |     4931 |    34.5637 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   410.085864 |       82 |     0.0442 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   410.085864 |        4 |     0.1256 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   410.085864 |       16 |     0.2184 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 8
+Seed: 1108
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_08_n_8_q_035_seed_1108.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   371.457076 |      485 |     0.4563 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   371.457076 |        1 |     0.0471 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   371.457076 |        0 |     0.0965 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   371.457076 |        0 |     0.0956 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 9
+Seed: 1109
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_09_n_8_q_035_seed_1109.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   408.276603 |     1221 |     1.1767 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   408.276603 |        1 |     0.0154 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   408.276603 |        0 |     0.1030 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   408.276603 |        0 |     0.1045 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 1
+Category name: C01_very_easy_8_customers_Q035
+Problem index: 10
+Seed: 1110
+n_customers: 8
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_01_problem_10_n_8_q_035_seed_1110.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   488.235395 |    46779 |    44.0911 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   488.235395 |      658 |     0.0685 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   488.235395 |     1215 |     3.6728 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   488.235395 |     1341 |     8.1048 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 1
+Seed: 1201
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_01_n_9_q_035_seed_1201.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   430.948264 |    14936 |    17.4039 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   430.948264 |      392 |     0.0417 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   430.948264 |        0 |     0.1143 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   430.948264 |        0 |     0.1141 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 2
+Seed: 1202
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_02_n_9_q_035_seed_1202.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   485.706995 |     5447 |    10.1974 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   485.706995 |        1 |     0.0357 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   485.706995 |       33 |     0.5005 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   485.706995 |        4 |     0.3231 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 3
+Seed: 1203
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_03_n_9_q_035_seed_1203.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   543.395220 |    17877 |    40.4592 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   543.395220 |      349 |     0.1068 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   543.395220 |       42 |     0.5932 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   543.395220 |        6 |     0.4058 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 4
+Seed: 1204
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_04_n_9_q_035_seed_1204.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   376.437525 |     7468 |    18.3642 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   376.437525 |      117 |     0.1267 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   376.437525 |        1 |     0.2593 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   376.437525 |        1 |     0.2602 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 6
+Seed: 1206
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_06_n_9_q_035_seed_1206.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   424.827826 |    24745 |    57.6521 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   424.827826 |      116 |     0.1243 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   424.827826 |      105 |     0.9938 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   424.827826 |      169 |     2.1300 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 7
+Seed: 1207
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_07_n_9_q_035_seed_1207.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   521.401795 |    12337 |    25.9656 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   521.401795 |      105 |     0.0853 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   521.401795 |       78 |     0.8592 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   521.401795 |       24 |     0.6308 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 8
+Seed: 1208
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_08_n_9_q_035_seed_1208.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   417.018853 |     2412 |     8.1285 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   417.018853 |      134 |     0.1144 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   417.018853 |       20 |     0.4827 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   417.018853 |       14 |     0.4603 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 9
+Seed: 1209
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_09_n_9_q_035_seed_1209.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   515.415871 |    34299 |    78.4835 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   515.415871 |     1323 |     0.1384 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   515.415871 |      130 |     1.2044 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   515.415871 |      218 |     2.9086 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 2
+Category name: C02_easy_9_customers_Q035
+Problem index: 10
+Seed: 1210
+n_customers: 9
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_02_problem_10_n_9_q_035_seed_1210.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   539.672458 |    61040 |   142.8733 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   539.672458 |     1397 |     0.1626 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   539.672458 |       92 |     1.1455 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   539.672458 |      164 |     2.3296 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 1
+Seed: 1301
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_01_n_10_q_03_seed_1301.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   578.795129 |    14719 |    38.2869 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   578.795129 |     1239 |     0.2111 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   578.795129 |       77 |     1.1705 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   578.795129 |       23 |     0.6897 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 2
+Seed: 1302
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_02_n_10_q_03_seed_1302.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   519.184398 |    36831 |    94.9108 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   519.184398 |      376 |     0.1426 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   519.184398 |       33 |     0.7979 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   519.184398 |       46 |     1.1014 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 3
+Seed: 1303
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_03_n_10_q_03_seed_1303.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   458.841760 |    34247 |    87.2150 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   458.841760 |     2121 |     0.2343 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   458.841760 |       92 |     1.1502 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   458.841760 |       94 |     1.6545 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 4
+Seed: 1304
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_04_n_10_q_03_seed_1304.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   623.484567 |     3044 |     6.8677 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   623.484567 |      170 |     0.1400 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   623.484567 |        0 |     0.4024 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   623.484567 |        0 |     0.3996 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 5
+Seed: 1305
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_05_n_10_q_03_seed_1305.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   766.631977 |     5353 |    14.8593 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   766.631977 |      151 |     0.1606 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   766.631977 |        0 |     0.4134 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   766.631977 |        0 |     0.4145 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 6
+Seed: 1306
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_06_n_10_q_03_seed_1306.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   731.740691 |   105017 |   257.5818 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   731.740691 |      420 |     0.1921 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   731.740691 |       74 |     1.0974 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   731.740691 |       28 |     0.7975 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 7
+Seed: 1307
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_07_n_10_q_03_seed_1307.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   468.408920 |    24317 |    61.3599 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   468.408920 |      346 |     0.1329 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   468.408920 |      210 |     2.1838 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   468.408920 |      197 |     2.9015 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 8
+Seed: 1308
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_08_n_10_q_03_seed_1308.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   680.633063 |    69724 |   172.2512 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   680.633063 |     1084 |     0.1574 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   680.633063 |      366 |     3.4473 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   680.633063 |      472 |     6.0737 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 9
+Seed: 1309
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_09_n_10_q_03_seed_1309.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   596.095989 |    60385 |   151.8698 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   596.095989 |     2233 |     0.3082 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   596.095989 |       45 |     0.8633 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   596.095989 |       16 |     0.6754 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 3
+Category name: C03_easy_10_customers_Q030
+Problem index: 10
+Seed: 1310
+n_customers: 10
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_03_problem_10_n_10_q_03_seed_1310.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   647.530972 |    39210 |    93.7238 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   647.530972 |      203 |     0.1256 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   647.530972 |        9 |     0.6229 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   647.530972 |        7 |     0.6197 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 1
+Seed: 1401
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_01_n_11_q_03_seed_1401.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   395.946311 |    21547 |    59.4607 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   395.946311 |       93 |     0.0765 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   395.946311 |        3 |     0.8675 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   395.946311 |       12 |     0.9925 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 2
+Seed: 1402
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_02_n_11_q_03_seed_1402.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   493.967880 |     5986 |    18.4616 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   493.967880 |      102 |     0.2455 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   493.967880 |        0 |     0.5245 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   493.967880 |        0 |     0.5176 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 3
+Seed: 1403
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_03_n_11_q_03_seed_1403.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   525.973709 |    98249 |   284.4778 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   525.973709 |     1717 |     0.2162 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   525.973709 |     2348 |    19.7753 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   525.973709 |     3113 |    47.2676 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 4
+Seed: 1404
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_04_n_11_q_03_seed_1404.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   475.438636 |   251479 |   709.9189 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   475.438636 |     1783 |     0.2481 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   475.438636 |       54 |     1.1771 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   475.438636 |      174 |     3.0393 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 5
+Seed: 1405
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_05_n_11_q_03_seed_1405.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   475.751180 |   270986 |   788.9362 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   475.751180 |     7430 |     0.5791 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   475.751180 |     7597 |    79.2526 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   475.751180 |     6498 |    92.9754 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 6
+Seed: 1406
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_06_n_11_q_03_seed_1406.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   522.137993 |    89608 |   277.6488 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   522.137993 |     1512 |     0.1966 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   522.137993 |      153 |     2.0969 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   522.137993 |      191 |     2.9796 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 7
+Seed: 1407
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_07_n_11_q_03_seed_1407.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   493.845063 |    23623 |    71.4080 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   493.845063 |      353 |     0.2705 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   493.845063 |       24 |     1.0967 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   493.845063 |       44 |     1.4616 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 8
+Seed: 1408
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_08_n_11_q_03_seed_1408.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   537.774798 |   251782 |   765.9846 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   537.774798 |     5816 |     0.6286 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   537.774798 |     2834 |    30.0325 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   537.774798 |     2507 |    38.4237 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 9
+Seed: 1409
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_09_n_11_q_03_seed_1409.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   477.277501 |    31489 |   101.6649 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   477.277501 |      357 |     0.1266 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   477.277501 |        0 |     0.6101 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   477.277501 |        0 |     0.6166 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 4
+Category name: C04_low_mid_11_customers_Q030
+Problem index: 10
+Seed: 1410
+n_customers: 11
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_04_problem_10_n_11_q_03_seed_1410.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   608.591652 |   219628 |   672.8313 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   608.591652 |     7417 |     0.5940 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   608.591652 |     1283 |    15.9721 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   608.591652 |     1204 |    16.2249 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 1
+Seed: 1501
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_01_n_12_q_03_seed_1501.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1402.9650 |          inf |           none
+Gurobi MIP reference                                         |   602.135510 |     5088 |     0.4932 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   602.135510 |     6417 |    77.5007 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   602.135510 |     4377 |    68.0520 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 2
+Seed: 1502
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_02_n_12_q_03_seed_1502.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   469.232659 |    15121 |    51.7313 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   469.232659 |      510 |     0.2342 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   469.232659 |        0 |     1.2509 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   469.232659 |        0 |     1.2052 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 3
+Seed: 1503
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_03_n_12_q_03_seed_1503.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1381.0423 |          inf |           none
+Gurobi MIP reference                                         |   656.247469 |    12009 |     1.0796 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   656.247469 |    18075 |   218.3875 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   656.247469 |    27553 |   458.1205 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 4
+Seed: 1504
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_04_n_12_q_03_seed_1504.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   537.678938 |   133283 |   451.0065 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   537.678938 |     2922 |     0.3324 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   537.678938 |      239 |     4.0437 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   537.678938 |      103 |     2.9409 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 5
+Seed: 1505
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_05_n_12_q_03_seed_1505.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1387.9587 |          inf |           none
+Gurobi MIP reference                                         |   549.781088 |      914 |     0.1628 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   549.781088 |      858 |     9.4732 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   549.781088 |     4095 |    65.0226 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 6
+Seed: 1506
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_06_n_12_q_03_seed_1506.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1376.4746 |          inf |           none
+Gurobi MIP reference                                         |   768.764251 |    29969 |     1.8674 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   768.764251 |    14973 |   192.1824 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   768.764251 |     9708 |   161.3502 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 7
+Seed: 1507
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_07_n_12_q_03_seed_1507.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1379.0647 |          inf |           none
+Gurobi MIP reference                                         |   604.340293 |    15113 |     0.8092 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   604.340293 |    79085 |   853.8094 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   604.340293 |    59112 |   862.8713 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 8
+Seed: 1508
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_08_n_12_q_03_seed_1508.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1354.7012 |          inf |           none
+Gurobi MIP reference                                         |   550.267434 |     2630 |     0.3414 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   550.267434 |      749 |     8.8667 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   550.267434 |     1185 |    20.4069 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 9
+Seed: 1509
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_09_n_12_q_03_seed_1509.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   595.505736 |   166748 |   561.9023 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   595.505736 |       70 |     0.2278 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   595.505736 |        0 |     1.3278 |          inf |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   595.505736 |        0 |     0.8194 |          inf |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 5
+Category name: C05_mid_12_customers_Q030
+Problem index: 10
+Seed: 1510
+n_customers: 12
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_05_problem_10_n_12_q_03_seed_1510.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |   565.367568 |   137162 |   466.3410 |      0.0000% |    bnb_integer
+Gurobi MIP reference                                         |   565.367568 |      657 |     0.2747 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   565.367568 |      247 |     3.8931 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   565.367568 |      669 |    11.6222 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 6
+Category name: C06_mid_13_customers_Q025
+Problem index: 1
+Seed: 1601
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_06_problem_01_n_13_q_03_seed_1601.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1513.2849 |          inf |           none
+Gurobi MIP reference                                         |   591.872799 |    11935 |     1.5992 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   591.872799 |     5352 |    90.7317 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   591.872799 |     3424 |    72.9225 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 6
+Category name: C06_mid_13_customers_Q025
+Problem index: 2
+Seed: 1602
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_06_problem_02_n_13_q_03_seed_1602.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1556.1965 |          inf |           none
+Gurobi MIP reference                                         |   567.911633 |    29288 |     6.5374 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   567.911633 |    27054 |   350.4685 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   567.911633 |    28352 |   495.0009 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 6
+Category name: C06_mid_13_customers_Q025
+Problem index: 3
+Seed: 1603
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_06_problem_03_n_13_q_03_seed_1603.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+simple B&B                                                   |          inf |   400000 |  1494.4101 |          inf |           none
+Gurobi MIP reference                                         |   669.992560 |    15621 |     2.3995 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   669.992560 |    32805 |   486.7170 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   669.992560 |    27128 |   817.4475 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 6
+Category name: C06_mid_13_customers_Q025
+Problem index: 1
+Seed: 1601
+n_customers: 13
+Q_ratio: 0.35
+Saved problem: experiment_logs/saved_problems/cat_06_problem_01_n_13_q_035_seed_1601.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   537.815825 |    43128 |     2.8350 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   537.815825 |   100708 |  1618.6298 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   537.815825 |    71373 |  1340.0556 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 7
+Category name: C07_mid_hard_14_customers_Q025
+Problem index: 1
+Seed: 1701
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_07_problem_01_n_13_q_03_seed_1701.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   500.996344 |     2211 |     0.3162 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   500.996344 |        8 |     6.4928 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   500.996344 |        4 |     6.7946 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 7
+Category name: C07_mid_hard_14_customers_Q025
+Problem index: 1
+Seed: 1701
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_07_problem_01_n_13_q_03_seed_1701.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   500.996344 |     2211 |     0.3493 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   500.996344 |        8 |     6.8746 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   500.996344 |        4 |     7.1829 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 7
+Category name: C07_mid_hard_14_customers_Q025
+Problem index: 2
+Seed: 1702
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_07_problem_02_n_13_q_03_seed_1702.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   591.132934 |    23727 |     1.6060 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   591.132934 |    10269 |   128.6206 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   591.132934 |     7594 |   122.0463 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 7
+Category name: C07_mid_hard_14_customers_Q025
+Problem index: 3
+Seed: 1703
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_07_problem_03_n_13_q_03_seed_1703.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   526.339629 |    19548 |     2.5870 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   526.339629 |    50014 |   665.6725 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   526.339629 |    47103 |   787.5381 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 7
+Category name: C07_mid_hard_14_customers_Q025
+Problem index: 4
+Seed: 1704
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_07_problem_04_n_13_q_03_seed_1704.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   597.127702 |        1 |     0.1715 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   597.127702 |        0 |     6.0485 |      0.0000% |      heuristic
+Enhanced B&B with pure GNN top-1 branching                   |   597.127702 |        0 |     5.8188 |      0.0000% |      heuristic
+----------------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+PROBLEM SUMMARY
+========================================================================================================================
+Category ID: 7
+Category name: C07_mid_hard_14_customers_Q025
+Problem index: 5
+Seed: 1705
+n_customers: 13
+Q_ratio: 0.3
+Saved problem: experiment_logs/saved_problems/cat_07_problem_05_n_13_q_03_seed_1705.pkl
+
+Experiment                                                   |          Obj |    Nodes |    Time(s) |          Gap |       Solution
+----------------------------------------------------------------------------------------------------------------------------------
+Gurobi MIP reference                                         |   581.630685 |    13264 |     0.9510 |      0.0000% |         gurobi
+Enhanced B&B with XGBoost ranker branching                   |   581.630685 |       47 |     7.3667 |      0.0000% |    bnb_integer
+Enhanced B&B with pure GNN top-1 branching                   |   581.630685 |      105 |     8.8151 |      0.0000% |    bnb_integer
+----------------------------------------------------------------------------------------------------------------------------------

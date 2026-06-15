@@ -1,15 +1,15 @@
 {
-  "test_loss": 3.3862998457474633,
-  "test_acc_at_1": 0.13770250371480375,
-  "test_acc_at_3": 0.32106038326718495,
-  "test_acc_at_5": 0.44477172312223856,
-  "test_acc_at_10": 0.6399116351959105,
+  "test_loss": 2.88266035704304,
+  "test_acc_at_1": 0.189928057189468,
+  "test_acc_at_3": 0.4489208624088507,
+  "test_acc_at_5": 0.6143884877506778,
+  "test_acc_at_10": 0.8359712219924378,
   "test_stats": {
-    "avg_candidates": 105.57879234167893,
-    "min_candidates": 19,
-    "max_candidates": 207,
-    "mean_rank_percentile": 0.1261526741603297,
-    "mean_mrr": 0.27091502159318953,
-    "base_loss": 3.3862998457474633
+    "avg_candidates": 37.516546762589925,
+    "min_candidates": 6,
+    "max_candidates": 80,
+    "mean_rank_percentile": 0.21797206683477197,
+    "mean_mrr": 0.32393948395302613,
+    "base_loss": 2.88266035704304
   }
 }
